@@ -31,8 +31,9 @@ body{
 .main-container{
     flex: 1;
     border-radius: 1rem;
-    background: #232323;
+    background: #121212;
     overflow: auto;
+    padding: 0 1.5rem;
 }
 
 .player{
@@ -151,7 +152,7 @@ a{
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0;
-    /* z-index: 10; */
+    z-index: 10;
 }
 
 .sticky-nav-icons {
@@ -177,4 +178,53 @@ a{
     .hide{
         display: none;
     }
+}
+
+
+.card{
+    background-color: #232323;
+    width: 190px;
+    border-radius: .5rem;
+    padding: 1rem;
+}
+
+.card-container{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.main-container h2 {
+    padding: 1rem 0;
+}
+
+.card-img{
+    width: 100%;
+    border-radius: .5rem;
+}
+
+.card-title{
+    font-weight: 600;
+    margin-top: .5rem;
+}
+
+.card-info{
+    font-size: .85rem;
+    margin-top: .5rem;
+    opacity: .7;
+}
+
+.footer{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line{
+    width: 90%;
+    height: 30%;
+    border-top: 1px solid #fff;
+    opacity: .3;
+
 }
