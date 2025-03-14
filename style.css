@@ -150,6 +150,31 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: .5rem 0;
-    z-index: 10;
+    padding: 1rem 0;
+    /* z-index: 10; */
+}
+
+.sticky-nav-icons {
+    margin: 0 .75rem;
+}
+
+.sticky-nav-option{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item{
+    margin-right: 1rem;
+}
+
+.dark-badge{
+    background: #181818;
+    color: #fff;    
+}
+
+@media  (max-width: 1000px){
+    .hide{
+        display: none;
+    }
 }
