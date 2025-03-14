@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+    color: #fff;
+    overflow: hidden;
+} 
+
+#main{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+#sidebar{
+    width: 300px;
+    border-radius: 1rem;
+    background-color: #121212;
+}
+
+#main-container{
+    flex: 1;
+    border-radius: 1rem;
+    overflow: auto;
+}
+
+#player{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #181818;
+}
