@@ -1,1 +1,2 @@
-Spotify-Clone
+Spotify-Clone -music player
+
